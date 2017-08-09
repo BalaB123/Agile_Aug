@@ -23,5 +23,19 @@ public class MyClass {
 		return sum;
 		
 	}
+	
+	
+	public int findBiggest(int[] array){
+		int bigNum=0;
+		for(int i=0;i<array.length;i++)
+		{
+		if(bigNum<array[i])
+			bigNum=array[i];
+		}
+		
+		return bigNum;
+		
+	}
+
 
 }
