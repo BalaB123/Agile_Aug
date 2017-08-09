@@ -6,7 +6,7 @@ public class MainClass {
 		System.out.println("Hey! Good AfterNoon!");
 		System.out.println("Hey!");
 		System.out.println("Hey! Good Night!");
-		System.out.println("Hey! Welcome!");
+		//System.out.println("Hey! Welcome!");
 		
 	}
 	
