@@ -6,9 +6,9 @@ public class MyClass {
 	
 	public void display(){
 		int sum=0;
-		System.out.println("Arrays");
-		for(int num:arr){
-			sum+=num;
+		System.out.println("Sum of Arrays");
+		for(int i=0;i<arr.length;i++){
+			sum+=arr[i];
 		}
 			System.out.println("Sum:" + sum);
 	}
